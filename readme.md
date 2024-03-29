@@ -39,3 +39,9 @@ $ npx feathers generate service               # Generate a new Service
 ## Help
 
 For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+
+![Screenshot 2024-03-29 134921](https://github.com/OmPrakashSahoo-05/ChatApp/assets/78353350/be1cbf08-a099-42da-bb36-9d62133e6d4f)
+
+![Screenshot 2024-03-29 135000](https://github.com/OmPrakashSahoo-05/ChatApp/assets/78353350/fb24a4af-18fa-425a-926b-f1f2aac67db0)
+
+
