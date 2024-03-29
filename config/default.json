@@ -1,0 +1,40 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "./public/",
+  "origins": [
+    "http://localhost:3030"
+  ],
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mongodb": "mongodb://127.0.0.1:27017/feathers-chat",
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "877T/suA4WzaVxoDz6k0LFfL/9y5wEaf",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    },
+    "oauth": {
+      "github": {
+        "key": "b7005a0026f683b59c2d",
+        "secret": "e1084faefb9d20ea23827249fd29ed3d845309b2"
+      }
+    }
+  }
+}
